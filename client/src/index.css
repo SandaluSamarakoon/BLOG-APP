@@ -495,4 +495,13 @@ input, select, textarea {
     align-items: center;
 }
 
-.dashboard__post-
+.dashboard__post-thumbnail {
+    width: 4rem;
+    border-radius: var(--radius-1);
+    overflow: hidden;
+}
+
+.dashboard__post-actions{
+    display: flex;
+    gap: 1rem;
+}
