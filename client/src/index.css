@@ -505,3 +505,19 @@ input, select, textarea {
     display: flex;
     gap: 1rem;
 }
+
+/*------------------------------CREAT POST---------------------------*/
+.create-post__form{
+    margin-top: 3rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+/*------------------------------custom style for react quill----------------------------*/
+.q1-editor {
+    overflow: scroll;
+    background: var(--color-white);
+    height: 10rem !important;
+}
